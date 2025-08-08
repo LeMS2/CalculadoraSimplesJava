@@ -23,26 +23,43 @@
 └── CalculadoraTest.java
 </pre>
 
-<h2>🧪 Testes</h2>
-<p>Os testes foram desenvolvidos com <strong>JUnit 5</strong> para garantir o correto funcionamento de cada operação. Exemplo:</p>
-<pre><code>
-@Test
-public void testSomar() {
-    assertEquals(5, calc.somar(2, 3));
-}
-</code></pre>
+🛠️ Tecnologias Usadas
 
-<h2>📦 Como Executar</h2>
-<ol>
-    <li>Clone o repositório:</li>
-    <pre><code>git clone https://github.com/LeMS2/CalculadoraSimplesJava.git</code></pre>
-    <li>Abra o projeto no IntelliJ ou outro IDE Java</li>
-    <li>Compile e execute <code>CalculadoraApp.java</code></li>
-</ol>
+- Java 17 ou superior
+- Swing (GUI)
+- JUnit 5 (testes)
 
-<h2>📝 Licença</h2>
-<p>Este projeto está licenciado sob a <strong>MIT License</strong>.</p>
+🚀 Como Executar
 
-</body>
-</html>
+Pré-requisitos:
+- Java JDK instalado (Java 17 ou superior)
+- IDE como IntelliJ IDEA ou Eclipse
+
+Executar com IntelliJ:
+
+1. Clone o repositório:
+   git clone https://github.com/LeMS2/CalculadoraSimplesJava.git
+2. Abra o projeto no IntelliJ
+3. Execute CalculadoraApp.java
+   
+Executar via Terminal:
+javac Calculadora.java CalculadoraApp.java
+java CalculadoraApp
+
+🧪 Executar os Testes
+
+Com IntelliJ:
+
+1. Clique com o botão direito em CalculadoraTest.java
+2. Selecione 'Run CalculadoraTest'
+
+Ou pelo terminal (se JUnit estiver configurado):
+
+javac -cp .:junit-platform-console-standalone-1.10.0.jar CalculadoraTest.java
+java -jar junit-platform-console-standalone-1.10.0.jar -cp . --select-class CalculadoraTest
+
+✨ Autor
+
+Desenvolvido por Letícia Marques
+GitHub: https://github.com/LeMS2
  
