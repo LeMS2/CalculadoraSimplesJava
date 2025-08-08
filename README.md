@@ -12,7 +12,6 @@
 
 <h2>📷 Interface</h2>
 <div class="screenshot">
-    <p><em>Insira aqui a imagem da interface da calculadora.</em></p>
     <img width="200" height="200" alt="image" src="https://github.com/user-attachments/assets/88dd1b79-8124-486b-8db6-550aeb32c4da" />
 
 </div>
