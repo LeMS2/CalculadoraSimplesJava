@@ -56,10 +56,12 @@ Com IntelliJ:
 Ou pelo terminal (se JUnit estiver configurado):
 
 javac -cp .:junit-platform-console-standalone-1.10.0.jar CalculadoraTest.java
+
 java -jar junit-platform-console-standalone-1.10.0.jar -cp . --select-class CalculadoraTest
 
 ✨ Autor
 
 Desenvolvido por Letícia Marques
+
 GitHub: https://github.com/LeMS2
  
